@@ -2,12 +2,13 @@
 
 ## ใส่ในไฟล์ `main.js`
 ```javascript
-#Version 2
+// Version 2
 import { Vue } from 'vue';
 ...
 Vue.prototype.$testProperties = "test";
 
-#Version 3
+
+// Version 3
 import { createApp } from 'vue';
 import App from './App.vue';
 ...
