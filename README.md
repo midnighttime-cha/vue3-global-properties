@@ -19,19 +19,19 @@ app.use(router).mount('#app')
 
 ## วิธีเรียกใช้
 ```javascript
-# Version 2
+// Version 2
 export default {
   mounted() {
     console.log(this.$testProperties);
-    # Output: test
-	},
+    // Output: test
+  },
 }
 
-# Version 3
+// Version 3
 export default {
   mounted() {
     console.log(this.$testProperties);
-    # Output: test
-	},
+    // Output: test
+  },
 }
 ```
