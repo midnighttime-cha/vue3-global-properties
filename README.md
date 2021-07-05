@@ -5,6 +5,7 @@
 // Version 2
 import { Vue } from 'vue';
 ...
+// Vue.prototype.[ชื่อ Property ]
 Vue.prototype.$testProperties = "test";
 
 
@@ -13,6 +14,7 @@ import { createApp } from 'vue';
 import App from './App.vue';
 ...
 const app = createApp(App);
+// app.config.globalProperties.[ชื่อ Property ]
 app.config.globalProperties.$testProperties = "test";
 
 app.use(router).mount('#app')
